@@ -26,7 +26,7 @@ const PostItem = ({
   </S.PostItemLink>
 )
 
-PostItem.PropTypes = {
+PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
   background: PropTypes.string,
   category: PropTypes.string.isRequired,
